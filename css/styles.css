@@ -131,6 +131,9 @@ form{
   width: 700px;
   max-width: 90%;
 }
+::placeholder{
+  color: rgb(204, 204, 204);
+}
 form input{
   width:49%;
 }
@@ -144,6 +147,22 @@ form input, form textarea{
 form textarea{
   margin-top: 20px;
   width: 98.8%;
+}
+form input:focus, textarea:focus{
+  background: rgba(0, 0, 0, 0.733);
+  border: transparent;
+  transform: scale(1.03);
+}
+form input[type=submit]{
+  background: rgba(255, 166, 0, 0.699);
+  font-weight: 300;
+  font-size: 1.6em;
+  outline: none;
+}
+form input[type=submit]:hover{
+  border-radius: 30px;
+  background: rgb(255, 166, 0);
+  outline: none;
 }
 
 
