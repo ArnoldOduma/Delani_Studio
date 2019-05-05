@@ -30,6 +30,11 @@ body::-webkit-scrollbar-thumb {
   background-color: rgb(255, 153, 58);
   border-radius: 30px;
 }
+h3{
+  width: 100%;
+  font-family: "khand", sans-serif;
+  letter-spacing: 3px;
+}
 
 
 
