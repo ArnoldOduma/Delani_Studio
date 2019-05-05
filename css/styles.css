@@ -32,6 +32,16 @@ h3{
   font-family: "khand", sans-serif;
   letter-spacing: 3px;
 }
+.slide_in{
+  transform: translateY(150px);
+  animation: slide_in 0.8s ease forwads;
+}
+.slide_in:nth-child(odd){
+  animation-duration: 0.6s;
+}
+@keyframes slide_in{
+  to{transform: translateY(0);}
+}
 /* ---------------------------------------------
           SCROLL BAR STYLING
 --------------------------------------------- */
@@ -70,7 +80,9 @@ header div h1{
   bottom: 20px;
   border-radius: 30px;
   box-shadow: 0 0 20px #000;
+  animation-duration: 0.9s;
 }
+
 /* ---------------------------------------------
           ABOUT US SECTON
 --------------------------------------------- */
