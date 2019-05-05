@@ -76,9 +76,16 @@ header div h1{
   min-height: 180px;
   padding: 10px 0; 
   cursor: pointer;
-
 }
-
+#whatWeDo>div img{
+  transition: all 0.1s ease-out;
+}
+#whatWeDo>div img:hover{
+  transform: scale(0.8);
+  border-radius: 15%;
+  padding: 10px;
+  box-shadow: 0 0 20px rgb(0, 0, 0);
+}
 
 
 
