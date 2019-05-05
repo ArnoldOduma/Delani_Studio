@@ -1,3 +1,6 @@
+/* ---------------------------------------------
+          CUSTOM FONTS
+--------------------------------------------- */
 @font-face{
   font-family: "Khand";
   src: url('../fonts/Khand-Bold.ttf');
@@ -10,6 +13,9 @@
   font-family: "Gothic";
   src: url('../fonts/DidactGothic-Regular.ttf');
 }
+/* ---------------------------------------------
+          GENERAL STYLES
+--------------------------------------------- */
 *{
   box-sizing: border-box;
   transition: all 0.5s ease-in;
@@ -21,7 +27,14 @@ body{
   text-align: center;
   font-family: "Gothic", sans-serif;
 }
-/* Styled the scroll bar */
+h3{
+  width: 100%;
+  font-family: "khand", sans-serif;
+  letter-spacing: 3px;
+}
+/* ---------------------------------------------
+          SCROLL BAR STYLING
+--------------------------------------------- */
 body::-webkit-scrollbar {
   width: 10px;
   background-color: rgb(119, 119, 117);
@@ -30,14 +43,12 @@ body::-webkit-scrollbar-thumb {
   background-color: rgb(255, 153, 58);
   border-radius: 30px;
 }
-h3{
-  width: 100%;
-  font-family: "khand", sans-serif;
-  letter-spacing: 3px;
-}
 
 
 
+/* ---------------------------------------------
+          HEADER SECTON
+--------------------------------------------- */
 header{
   background-image: url('../assets/backgrounds/h_img.jpeg');
   height: 100vh;
@@ -60,11 +71,15 @@ header div h1{
   border-radius: 30px;
   box-shadow: 0 0 20px #000;
 }
-
+/* ---------------------------------------------
+          ABOUT US SECTON
+--------------------------------------------- */
 #aboutUs{
   padding: 50px 10%;
 }
-
+/* ---------------------------------------------
+          SERVICES SECTON
+--------------------------------------------- */
 #services{
   background-image: url('../assets/backgrounds/s_image.jpg');
   background-size: cover;
@@ -72,6 +87,9 @@ header div h1{
   color: white;
   text-shadow: 0 0 20px #000
 }
+/* ---------------------------------------------
+          WHAT WE DO SECTON
+--------------------------------------------- */
 #whatWeDo{
   padding-top: 70px;
 }
@@ -91,6 +109,9 @@ header div h1{
   padding: 10px;
   box-shadow: 0 0 20px rgb(0, 0, 0);
 }
+/* ---------------------------------------------
+          PORTFOLIO SECTON
+--------------------------------------------- */
 #portfolio img{
   width: 100%;
 }
@@ -122,6 +143,9 @@ header div h1{
   background: rgba(255, 255, 255, 0.664);
   border-top: 1.5px dashed rgb(255, 153, 0); 
 }
+/* ---------------------------------------------
+          CONTACT SECTON
+--------------------------------------------- */
 #contact{
   background-image: url('../assets/backgrounds/c_image.jpg');
   padding: 20px 5px;
@@ -165,7 +189,9 @@ form input[type=submit]:hover{
   background: rgb(255, 166, 0);
   outline: none;
 }
-/* Footer section */
+/* ---------------------------------------------
+          FOOTER SECTON
+--------------------------------------------- */
 footer{
   padding-top: 40px;
 }
@@ -180,32 +206,32 @@ footer img:hover{
   background: rgb(255, 145, 0);
   box-shadow: 0 0 20px rgb(0, 0, 0);
 }
+/* ---------------------------------------------
+       MEDIA QUERIES
+--------------------------------------------- */
 @media only screen and (min-width: 1000px){
   #portfolio>div>div>p{
     font-size: 2em;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 600px){
+  #whatWeDo div{
+    width: 100%;
+    min-height: 130px;
+  }
+  #portfolio div{
+    width: 49%;
+  }
+  #portfolio>div>div>p{
+    font-size: 1.4em; 
+  }
+  form input, form textarea{
+    width: 100%;
+    margin: 5px 0;
+  }
+  form input[type=submit]{
+    width: auto;
+    padding: 0 15%;
+  }
+}
 
