@@ -44,17 +44,21 @@ header{
   font-family: "khand", sans-serif;
   letter-spacing: 3px;
   line-height: 30px;
+  text-shadow: 0 0 20px #000;
+  
 }
 header div{
   padding-top: 30vh;
   color: white;
 }
 header div h1{
-  padding: 10 
+  padding: 10px ;
 }
 .mouse{
   position: absolute;
   bottom: 20px;
+  border-radius: 30px;
+  box-shadow: 0 0 20px #000;
 }
 
 #aboutUs{
@@ -66,6 +70,7 @@ header div h1{
   background-size: cover;
   padding: 100px 10%;
   color: white;
+  text-shadow: 0 0 20px #000
 }
 #whatWeDo{
   padding-top: 70px;
@@ -95,7 +100,17 @@ header div h1{
   position: relative;
   overflow: hidden;
 }
-
+#portfolio div:hover img{
+  transform: scale(1.4);
+}
+#portfolio>div>div{
+  position: absolute;
+  background: rgba(255, 255, 255, 0.63);
+  width: 100%;
+  min-height: 100%;
+  margin-top: -82%;
+  cursor: pointer;
+}
 
 
 
