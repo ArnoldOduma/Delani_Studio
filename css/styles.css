@@ -122,7 +122,11 @@ header div h1{
   background: rgba(255, 255, 255, 0.664);
   border-top: 1.5px dashed rgb(255, 153, 0); 
 }
-
+#contact{
+  background-image: url('../assets/backgrounds/c_image.jpg');
+  padding: 20px 5px;
+  color: white;
+}
 
 
 
