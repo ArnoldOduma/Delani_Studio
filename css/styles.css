@@ -122,6 +122,9 @@ header div h1{
   padding: 10px 0; 
   cursor: pointer;
 }
+.text{
+  display: none;
+}
 #whatWeDo>div img{
   transition: all 0.1s ease-out;
 }
@@ -153,6 +156,7 @@ header div h1{
   min-height: 100%;
   margin-top: -82%;
   cursor: pointer;
+  display: none;
 }
 #portfolio>div>div>p{
   font-size: 1.1em;
