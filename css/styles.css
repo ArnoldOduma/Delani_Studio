@@ -127,6 +127,24 @@ header div h1{
   padding: 20px 5px;
   color: white;
 }
+form{
+  width: 700px;
+  max-width: 90%;
+}
+form input{
+  width:49%;
+}
+form input, form textarea{
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  transition: all 0.2s ease;
+  padding: 7px;
+}
+form textarea{
+  margin-top: 20px;
+  width: 98.8%;
+}
 
 
 
