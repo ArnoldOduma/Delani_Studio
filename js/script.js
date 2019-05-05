@@ -1,18 +1,21 @@
 // LOADER
-var myLoader;
-function pageLoader(){
-  myLoader = setTimeout(showPage, 1000);
-}
-function showPage(){
-  document.getElementById("head").style.transform = "translateY(0)";
-  document.getElementById("Loader").style.display = "none";
-  window.location = "index.html#top";
-}
+// var myLoader;
+// function pageLoader(){
+//   myLoader = setTimeout(showPage, 1000);
+// }
+// function showPage(){
+//   document.getElementById("head").style.transform = "translateY(0)";
+//   document.getElementById("Loader").style.display = "none";
+//   window.location = "index.html#top";
+// }
 // JQUERY
 $(function(){
   $(".lazy").lazy();
 });
 $(document).ready(function () {
+  
+  $("#Loader").hide();
+  $("#head").addClass("onLoad");
 
   $(".weDo-cont").click(function () {
     $(this).children(".text").slideToggle(500);
