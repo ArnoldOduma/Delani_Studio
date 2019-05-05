@@ -1,3 +1,14 @@
+// LOADER
+var myLoader;
+function pageLoader(){
+  myLoader = setTimeout(showPage, 2000);
+}
+function showPage(){
+  document.getElementById("head").style.transform = "translateY(0)";
+  document.getElementById("Loader").style.display = "none";
+  window.location = "index.html#top";
+}
+// JQUERY
 $(document).ready(function () {
 
   $(".weDo-cont").click(function () {
@@ -24,3 +35,5 @@ $(document).ready(function () {
   });
 
 });
+
+
