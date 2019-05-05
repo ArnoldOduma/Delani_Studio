@@ -42,6 +42,16 @@ h3{
 @keyframes slide_in{
   to{transform: translateY(0);}
 }
+.success{
+  background: rgb(0, 194, 0);
+  color: white;
+  text-shadow: 0 0 20px rgb(0, 0, 0);
+}
+.error{
+  background: rgb(218, 0, 0);
+  color: white;
+}
+
 /* ---------------------------------------------
           SCROLL BAR STYLING
 --------------------------------------------- */
@@ -162,6 +172,12 @@ header div h1{
   background-image: url('../assets/backgrounds/c_image.jpg');
   padding: 20px 5px;
   color: white;
+}
+.message{
+  padding: 3px 15px;
+  margin: 7px 2px;
+  width: 700px;
+  max-width: 89%;
 }
 form{
   width: 700px;
