@@ -58,5 +58,12 @@ header div h1{
 }
 
 #aboutUs{
-  padding: 50px 0;
+  padding: 50px 10%;
+}
+
+#services{
+  background-image: url('../assets/backgrounds/s_image.jpg');
+  background-size: cover;
+  padding: 100px 10%;
+  color: white;
 }
