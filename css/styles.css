@@ -157,6 +157,7 @@ form input[type=submit]{
   background: rgba(255, 166, 0, 0.699);
   font-weight: 300;
   font-size: 1.6em;
+  padding: 0px;
   outline: none;
 }
 form input[type=submit]:hover{
@@ -174,10 +175,16 @@ footer img{
 }
 footer img:hover{
   transform: scale(0.8);
+  padding: 3px;
+  margin: -3px;
   background: rgb(255, 145, 0);
   box-shadow: 0 0 20px rgb(0, 0, 0);
 }
-
+@media only screen and (min-width: 1000px){
+  #portfolio>div>div>p{
+    font-size: 2em;
+  }
+}
 
 
 
