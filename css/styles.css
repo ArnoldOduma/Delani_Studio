@@ -122,18 +122,18 @@ header div h1{
 }
 .mouse{
   position: absolute;
-  bottom: 1vh;
+  bottom: 5vh;
   border-radius: 30px;
   box-shadow: 0 0 20px #000;
-  animation: bounce 0.5s linear infinite;
+  animation: bounce 0.7s linear infinite;
 }
 .mouse:hover{
   animation-play-state: paused;
 }
 @keyframes bounce{
-  0%{bottom: 0vh;box-shadow: 0 0 20px rgb(255, 136, 0);background: rgba(255, 136, 0, 0.486);}
-  40%{bottom: 5.5vh;}
-  70%{bottom: 4vh;}
+  0%{bottom: 2vh;box-shadow: 0 0 20px rgb(255, 136, 0);background: rgba(255, 136, 0, 0.486);}
+  40%{bottom: 10vh;}
+  70%{bottom: 8vh;}
 }
 /* ---------------------------------------------
           ABOUT US SECTON
@@ -290,7 +290,7 @@ footer img:hover{
 }
 @media only screen and (max-width: 600px){
   header div{
-    padding-top: 50vw;
+    padding-top: 30vw;
   }  
   #whatWeDo div{
     width: 100%;

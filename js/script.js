@@ -1,7 +1,7 @@
 // LOADER
 var myLoader;
 function pageLoader(){
-  myLoader = setTimeout(showPage, 2000);
+  myLoader = setTimeout(showPage, 1000);
 }
 function showPage(){
   document.getElementById("head").style.transform = "translateY(0)";
