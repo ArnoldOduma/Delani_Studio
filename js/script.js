@@ -9,6 +9,9 @@ function showPage(){
   window.location = "index.html#top";
 }
 // JQUERY
+$(function(){
+  $(".lazy").lazy();
+});
 $(document).ready(function () {
 
   $(".weDo-cont").click(function () {

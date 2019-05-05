@@ -16,14 +16,14 @@
 <body onload="pageLoader()">
     <div id="Loader">
       <div>
-        <img src="./assets/logo/logo.png" alt="">
+        <img src="./assets/logo/logo.png" alt="" class="lazy">
         <p>Delani Studio loading...</p>
       </div>
     </div>
     <div id="top"></div>
     <header id="head" class="container-fluid beforeLoad">
       <div>
-        <img src="./assets/logo/logo.png" alt="Delani logo">
+        <img src="./assets/logo/logo.png" alt="Delani logo" lazyload="on" class="lazy">
         <h1>WELCOME<br> TO DELANI STUDIO</h1>
         <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
       </div>
@@ -51,7 +51,7 @@
     <section id="whatWeDo" class="d-flex flex-wrap align-content-center justify-content-around  ">
       <h3>WHAT WE DO</h3>
       <div class="weDo-cont">
-        <img class="hide-img " src="./assets/services_icons/design_icon.png" alt="Design">
+        <img class="hide-img lazy" src="./assets/services_icons/design_icon.png" alt="Design">
         <p>DESIGN</p>
         <div class="text">
           <p>Our design practice offers a full range of services including brand strategy, interaction and visual design
@@ -59,7 +59,7 @@
         </div>
       </div>
       <div class="weDo-cont">
-        <img src="./assets/services_icons/dev_icon.png" alt="Development" class="hide-img ">
+        <img src="./assets/services_icons/dev_icon.png" alt="Development" class="hide-img lazy" lazyload="on">
         <p>DEVELOPMENT</p>
         <div class="text">
           <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.They collaborate
@@ -68,7 +68,7 @@
         </div>
       </div>
       <div class="weDo-cont">
-        <img src="./assets/services_icons/product_icon.png" alt="Product management" class="hide-img ">
+        <img src="./assets/services_icons/product_icon.png" alt="Product management" class="hide-img lazy" lazyload="on">
         <p>PRODUCT MANAGEMENT</p>
         <div class="text">
           <p>Planning and development is iterative. Because we are constantly coding and testing that the products we
@@ -77,59 +77,59 @@
         </div>
       </div>
     </section>
-    <section id="portfolio" class="container d-flex flex-row flex-wrap align-content-center justify-content-around ">
+    <section id="portfolio" class="container d-flex flex-row flex-wrap align-content-center justify-content-around " lazyload="on">
       <h3>PORTFOLIO</h3>
       <div class="port_cont ">
-        <img class="" src="./assets/portfolio/work4.jpg" alt="work4">
+        <img class="lazy" src="./assets/portfolio/work4.jpg" alt="work4">
         <div class="port_desc">
           <p>Smart <br> city</p>
         </div>
       </div>
       <div class="port_cont ">
 
-        <img src="./assets/portfolio/work3.jpg" alt="work3">
+        <img src="./assets/portfolio/work3.jpg" alt="work3" lazyload="on" class="lazy">
         <div class="port_desc">
           <p>Ontario <br> security</p>
         </div>
       </div>
       <div class="port_cont ">
 
-        <img src="./assets/portfolio/work2.jpg" alt="work2">
+        <img src="./assets/portfolio/work2.jpg" alt="work2" lazyload="on" class="lazy">
         <div class="port_desc">
           <p>Design <br>Kenya</p>
         </div>
       </div>
       <div class="port_cont ">
 
-        <img src="./assets/portfolio/work1.jpg" alt="work1">
+        <img src="./assets/portfolio/work1.jpg" alt="work1" lazyload="on" class="lazy">
         <div class="port_desc">
           <p>Weather <br>Informer</p>
         </div>
       </div>
       <div class="port_cont ">
 
-        <img src="./assets/portfolio/work5.jpg" alt="work5">
+        <img src="./assets/portfolio/work5.jpg" alt="work5" lazyload="on" class="lazy">
         <div class="port_desc">
           <p>Lets <br>Chat</p>
         </div>
       </div>
       <div class="port_cont ">
 
-        <img src="./assets/portfolio/work6.jpg" alt="work6">
+        <img src="./assets/portfolio/work6.jpg" alt="work6" lazyload="on" class="lazy">
         <div class="port_desc">
           <p>Mobile <br>Application</p>
         </div>
       </div>
       <div class="port_cont ">
 
-        <img src="./assets/portfolio/work7.jpg" alt="work7">
+        <img src="./assets/portfolio/work7.jpg" alt="work7" lazyload="on" class="lazy">
         <div class="port_desc">
           <p>Mock-up <br>Kenya</p>
         </div>
       </div>
       <div class="port_cont">
 
-        <img src="./assets/portfolio/work8.jpg" alt="work8">
+        <img src="./assets/portfolio/work8.jpg" alt="work8" lazyload="on" class="lazy">
         <div class="port_desc">
           <p>Giraffe <br>Restaurant</p>
         </div>
@@ -146,21 +146,23 @@
       </form>
     </section>
     <footer>
-      <a href=""><img src="./assets/social_icons/twitter.png" alt=""></a>
-      <a href=""><img src="./assets/social_icons/dribble.png" alt=""></a>
-      <a href=""><img src="./assets/social_icons/facebook.png" alt=""></a>
-      <a href=""><img src="./assets/social_icons/g_plus.png" alt=""></a>
-      <a href=""><img src="./assets/social_icons/skype.png" alt=""></a>
-      <a href=""><img src="./assets/social_icons/stumble_upon.png" alt=""></a>
-      <a href=""><img src="./assets/social_icons/behance.png" alt=""></a>
-      <a href=""><img src="./assets/social_icons/pinterest.png" alt=""></a>
-      <a href=""><img src="./assets/social_icons/you_tube.png" alt=""></a>
+      <a href=""><img src="./assets/social_icons/twitter.png" alt="" lazyload="on" class="lazy"></a>
+      <a href=""><img src="./assets/social_icons/dribble.png" alt="" lazyload="on" class="lazy" ></a>
+      <a href=""><img src="./assets/social_icons/facebook.png" alt="" lazyload="on" class="lazy"></a>
+      <a href=""><img src="./assets/social_icons/g_plus.png" alt="" lazyload="on" class="lazy" ></a>
+      <a href=""><img src="./assets/social_icons/skype.png" alt="" lazyload="on" class="lazy" ></a>
+      <a href=""><img src="./assets/social_icons/stumble_upon.png" alt="" lazyload="on"></a>
+      <a href=""><img src="./assets/social_icons/behance.png" alt="" lazyload="on" class="lazy"></a>
+      <a href=""><img src="./assets/social_icons/pinterest.png" alt="" lazyload="on" class="lazy"></a>
+      <a href=""><img src="./assets/social_icons/you_tube.png" alt="" lazyload="on" class="lazy"></a>
       <p>DELANI STUDIO <br>2019</p>
     </footer>
   <!-- jquery -->
   <script src="./js/jquery-3.4.0.min.js"></script>
   <!-- Bootstraps.js core -->
   <script src="./js/bootstrap.min.js"></script>
+  <!-- lazy loader -->
+  <script src="./js/jquery.lazy.min.js"></script>
   <!-- mdb -->
   <script src="./js/mdb.js"></script>
   <!-- javascript -->
