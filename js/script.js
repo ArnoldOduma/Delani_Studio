@@ -1,13 +1,4 @@
-// LOADER
-// var myLoader;
-// function pageLoader(){
-//   myLoader = setTimeout(showPage, 1000);
-// }
-// function showPage(){
-//   document.getElementById("head").style.transform = "translateY(0)";
-//   document.getElementById("Loader").style.display = "none";
-//   window.location = "index.html#top";
-// }
+
 // JQUERY
 $(function(){
   $(".lazy").lazy();
