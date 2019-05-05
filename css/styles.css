@@ -1,0 +1,53 @@
+@font-face{
+  font-family: "Khand";
+  src: url('../fonts/Khand-Bold.ttf');
+}
+@font-face{
+  font-family: "Questrial";
+  src: url('../fonts/Questrial-Regular.ttf');
+}
+@font-face{
+  font-family: "Gothic";
+  src: url('../fonts/DidactGothic-Regular.ttf');
+}
+*{
+  box-sizing: border-box;
+  transition: all 0.5s ease-in;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  text-align: center;
+  font-family: "Gothic", sans-serif;
+}
+/* Styled the scroll bar */
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgb(119, 119, 117);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 153, 58);
+  border-radius: 30px;
+}
+
+
+
+header{
+  background-image: url('../assets/backgrounds/h_img.jpeg');
+  height: 100vh;
+  font-family: "khand", sans-serif;
+  letter-spacing: 3px;
+  line-height: 30px;
+}
+header div{
+  padding-top: 30vh;
+  color: white;
+}
+header div h1{
+  padding: 10 
+}
+.mouse{
+  position: absolute;
+  bottom: 20px;
+}
