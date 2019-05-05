@@ -67,3 +67,43 @@ header div h1{
   padding: 100px 10%;
   color: white;
 }
+#whatWeDo{
+  padding-top: 70px;
+}
+#whatWeDo>div{
+  position: relative;
+  width: 30%;
+  min-height: 180px;
+  padding: 10px 0; 
+  cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
