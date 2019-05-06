@@ -167,8 +167,10 @@ header div h1{
   cursor: pointer;
 }
 .text{
-  display: none;
+  /* display: none; */
+  overflow: hidden;
 }
+
 #whatWeDo>div img{
   transition: all 0.1s ease-out;
 }
@@ -184,25 +186,32 @@ header div h1{
 #portfolio img{
   width: 100%;
 }
-#portfolio div{
+.port_cont{
+  height: 23%;
   width: 23%;
-  margin: 10px 0;
+  margin-bottom: 10px;
   position: relative;
   overflow: hidden;
 }
 #portfolio div:hover img{
   transform: scale(1.4);
 }
-#portfolio>div>div{
+.port_desc{
   position: absolute;
   background: rgba(255, 255, 255, 0.63);
   width: 100%;
-  min-height: 100%;
-  margin-top: -82%;
+  height: 100%;
   cursor: pointer;
-  display: none;
+  z-index: 30;
+  transform: translateX(-102%) rotate(45deg);
+  transition: all 0.3s ease;
+  border: 2px solid rgb(255, 255, 255);
 }
-#portfolio>div>div>p{
+.here{
+  transform: translateX(0) rotate(0deg);
+  border: none;
+}
+#portfolio p{
   font-size: 1.1em;
   line-height: 90%;
   margin: 20% 5%;
@@ -211,7 +220,7 @@ header div h1{
   font-family: "Questrial",serif;
   letter-spacing: 2px;
   background: rgba(255, 255, 255, 0.664);
-  border-top: 1.5px dashed rgb(255, 153, 0); 
+  border-top: 1.5px dashed rgb(255, 153, 0);
 }
 /* ---------------------------------------------
           CONTACT SECTON

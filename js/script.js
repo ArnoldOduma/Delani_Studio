@@ -1,22 +1,28 @@
 
 // JQUERY
-$(function(){
-  $(".lazy").lazy();
-});
 $(document).ready(function () {
-  
-  $("#Loader").hide();
-  $("#head").addClass("onLoad");
+  // loader
+  $("#Loader").fadeOut(1000);
+  $("#head").addClass("onLoad").fadeIn(2000);
+  $("html, body").scrollTop(0);
 
+  // what we do icons effect
+  $(".text").hide();
   $(".weDo-cont").click(function () {
     $(this).children(".text").slideToggle(500);
-    $(this).children(".hide-img").toggle(500);
+    $(this).children(".hide-img").fadeToggle(500);
   });
 
-  $(".port_cont").hover(function () {
-    $(this).children(".port_desc").fadeToggle("fast", "linear");
+  // portfolio effects
+  $(".port_desc").removeClass("here");
+  $(".port_cont").mouseover(function () {
+    $(this).children(".port_desc").addClass("here");
+  });
+  $(".port_cont").mouseleave(function () {
+    $(this).children(".port_desc").removeClass("here").fadeIn;
   });
 
+  // form submission effect
   $("#submission").submit(function(event){
     var data_1 = $("input:first").val();
     var data_2 = $("input#mail").val();
