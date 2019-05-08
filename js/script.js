@@ -1,5 +1,10 @@
 
 // JQUERY
+// lazy load
+$(function(){
+  $(".lazy").Lazy();
+});
+
 $(document).ready(function () {
   // loader
   $("#Loader").fadeOut(1000);

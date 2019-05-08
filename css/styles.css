@@ -27,6 +27,10 @@ body{
   text-align: center;
   font-family: "Gothic", sans-serif;
 }
+img{
+  min-width: 10px;
+  min-height: 10px;
+}
 h3{
   width: 100%;
   font-family: "khand", sans-serif;
@@ -167,7 +171,6 @@ header div h1{
   cursor: pointer;
 }
 .text{
-  /* display: none; */
   overflow: hidden;
 }
 
@@ -307,7 +310,7 @@ footer img:hover{
     width: 100%;
     min-height: 130px;
   }
-  #portfolio div{
+  #portfolio>div{
     width: 49%;
   }
   #portfolio>div>div>p{
